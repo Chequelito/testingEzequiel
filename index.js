@@ -13,7 +13,7 @@ const addManager = () => {
     .prompt([
       {
         type: "input",
-        message: "Hello team manager! What is your name?",
+        message: "What is your name?",
         name: "name",
       },
       {
