@@ -50,7 +50,7 @@ const generateIntern = function (intern) {
 };
 
 
-//array
+
 generateHTML = (data) => {
   pageArray = [];
 
@@ -75,7 +75,7 @@ generateHTML = (data) => {
   return generateTeam;
 };
 
-//function that will genetate the main html template
+
 const generateTeamPage = function (employeeCards) {
   return `<!DOCTYPE html>
   <html lang="en">
@@ -94,7 +94,7 @@ const generateTeamPage = function (employeeCards) {
     </head>
     <body>
       <header>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-warning">
           <div class="container-fluid d-flex justify-content-center">
             <span class="navbar-brand m-5 h1">My Team</span>
           </div>

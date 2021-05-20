@@ -103,8 +103,8 @@ const addEmployee = () => {
       }
     });
 };
-//function to write the HTML
-//writeFileSync
+
+
 const writeFile = (data) => {
   fs.writeFile("./dist/index.html", data, (err) => {
     if (err) {
