@@ -1,5 +1,7 @@
+const Engineer = require("../lib/Engineer")
+
 describe("Engineer", () => {
-    it("", () => {
+    it("Should return engineer properties", () => {
         const engineer = new Engineer("");
 
 expect(engineer.getName()).toEqual("Ezequiel")

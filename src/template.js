@@ -1,5 +1,5 @@
 const generateManager = function (manager) {
-  return `  <div class="col-md-6 mb-3 ml-3">
+  return `  <div class="col-md-3 mb-3 ml-3">
   <div class="card text-white bg-warning">
   <div class="card-header">
     <h5 class="card-title">Manager</h5>
@@ -16,7 +16,7 @@ const generateManager = function (manager) {
 };
 
 const generateEngineer = function (engineer) {
-  return `<div class="col-md-6 mb-3 ml-3">
+  return `<div class="col-md-3 mb-3 ml-3">
   <div class="card text-white bg-warning">  
   <div class="card-header">
     <h5 class="card-title">Engineer</h5>
@@ -33,7 +33,7 @@ const generateEngineer = function (engineer) {
 };
 
 const generateIntern = function (intern) {
-  return ` <div class="col-md-6 mb-3 ml-3">
+  return ` <div class="col-md-3 mb-3 ml-3">
   <div class="card text-white bg-warning">
    <div class="card-header">
     <h5 class="card-title">Intern</h5>
@@ -102,7 +102,7 @@ const generateTeamPage = function (employeeCards) {
       </header>
       <main>
       <div class="container d-flex justify-content-center">
-      <div class="row">
+      <div class="row w-100">
       ${employeeCards}
       </div>
       </div>
