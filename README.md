@@ -20,6 +20,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 
 ```md
 GIVEN a command-line application that accepts user input
+
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
 WHEN I click on an email address in the HTML
