@@ -1,6 +1,8 @@
+const Intern = require("../lib/Intern")
+
 describe("Intern", () => {
     it("", () => {
-        const engineer = new Intern("");
+        const intern = new Intern("");
 
 expect(intern.getName()).toEqual("Ezequiel")
 expect(intern.getId()).toEqual("Ezequiel")
